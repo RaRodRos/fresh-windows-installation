@@ -1,5 +1,7 @@
 # choco-uac
-Installation of my basic software and setting no UAC prompts
+1. Adding an option to the contextual menu to execute ps1 files as administrator and bypassing the execution policy
+2. Installation of my basic software
+3. Setting no UAC prompts
 
 It should be run as administrator and after prepping the system (debloat scripts or anything like that) and installing Chocolatey.
 
