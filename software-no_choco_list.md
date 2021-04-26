@@ -1,0 +1,26 @@
+# Programas para instalar manualmente
+
+- Office
+- Articulate 360
+- Adobe
+- ~~Visual similarity duplicate finder - **Buscar alternativa** (especialmente FOSS)~~
+- Open XCOM
+- CDisplay
+- CDisplayEx
+- yWriter 7/6 **Revisar la lista de software alternativo** 
+- Idle Master
+- Flashpoint
+- Storyboarder
+- BlueStacks
+- AutoFirma
+- LinkMaker
+- GPU Temp
+- PC Info
+- MKVCleaver
+- BulkMkvMuxer
+- jmkvpropedit
+- Wacom Desktop Center
+- ~~Trello~~
+- WhiteStarUML
+- Pastehere
+- FreeFileSync (el de chocolatey no funciona)
