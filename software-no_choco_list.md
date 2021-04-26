@@ -21,6 +21,6 @@
 - jmkvpropedit
 - Wacom Desktop Center
 - ~~Trello~~
-- WhiteStarUML
+- ~~WhiteStarUML (hay otras opciones mejores)~~ 
 - Pastehere
 - FreeFileSync (el de chocolatey no funciona)
