@@ -43,6 +43,7 @@
 	'Thunderbird -packageParameters "l=en-US"'
 	# 'wickr'
 	# 'discord'
+	'droidcamclient'
 
 	#####
 	# Downloads
