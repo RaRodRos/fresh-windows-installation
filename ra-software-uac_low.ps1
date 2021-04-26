@@ -145,5 +145,5 @@ if ($chocNotInstalledProgs.Length -ne 0) {
 	Write-Output "`n`n`n`nErrors installing:"
 	Write-Output $chocNotInstalledProgs.Split("|")
 }else {
-	Write-Output "`n`n`n`nNO ERRORS INSTALLING THE SOFTWARE"
+	Write-Output "`n`n`n`nNO ERRORS INSTALLING SOFTWARE"
 }
