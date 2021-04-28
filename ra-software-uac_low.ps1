@@ -4,8 +4,8 @@
 	#####
 	# Software development
 	#####
-	'AdoptOpenJDK --params=" /ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome /INSTALLDIR=C:\Program Files\AdoptOpenJDK\ /quiet "'
-	# 'nodejs'
+	# 'AdoptOpenJDK --params=" /ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome /INSTALLDIR=C:\Program Files\AdoptOpenJDK\ /quiet "'
+	'nodejs'
 	# 'python'
 	# 'android-sdk'
 	# 'eclipse'
@@ -15,7 +15,7 @@
 	# 'mobaxterm'
 	# 'bitnami-xampp'
 	'git'
-	# 'github-desktop'
+	'github-desktop'
 
 	#####
 	# Notes and writing
@@ -62,12 +62,14 @@
 	#####
 	# Videogames
 	#####
+	'steam'
 	'epicgameslauncher'
 	'goggalaxy'
 	'itch'
 	'origin'
-	'steam'
+	'playnite'
 	'geforce-experience'
+	'moonlight-qt'
 
 	#####
 	# Graphic design

@@ -24,3 +24,4 @@
 - ~~WhiteStarUML (hay otras opciones mejores)~~ 
 - Pastehere
 - FreeFileSync (el de chocolatey no funciona)
+- Parsec
