@@ -15,7 +15,7 @@
 	# 'mobaxterm'
 	# 'bitnami-xampp'
 	'git'
-	'github-desktop'
+	'gitkraken'
 
 	#####
 	# Notes and writing
