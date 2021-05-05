@@ -143,6 +143,7 @@ $chocProgs | ForEach-Object {
 	}
 }
 
+# Error notification
 if ($chocNotInstalledProgs.Length -ne 0) {
 	$chocNotInstalledProgs = $chocNotInstalledProgs.Remove(0,1)
 	Write-Output "`n`n`n`nErrors installing:"
