@@ -90,7 +90,7 @@
 	'onedrive'
 
 	#####
-	# Files and system administration
+	# System administration and utilities
 	#####
 	'powershell-core --packageparameters "/CleanUpPath" --install-arguments=" ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 REGISTER_MANIFEST=1 # ENABLE_PSREMOTING=1 "'
 	'7zip'
@@ -108,6 +108,7 @@
 	'teamviewer'
 	'grepwin'
 	'everything --params " /desktop-shortcut /folder-context-menu /quick-launch-shortcut /run-on-system-startup /start-menu-shortcuts "'
+	# 'automouseclick --ignore-checksum' # Hay que meter que ignose el checksum, no mola
 
 	#####
 	# Video tools
