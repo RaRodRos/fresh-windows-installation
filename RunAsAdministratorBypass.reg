@@ -1,20 +1,19 @@
 Windows Registry Editor Version 5.00
 
-; Estas claves añaden una opción al menú contextual de los archivos script de Powershell para ejecutarlos como administrador y con la Execution policy de Bypass
-; Basado en https://www.top-password.com/blog/add-run-with-powershell-admin-context-menu-for-ps1-files/
+; This keys add an option to the contextual menu for powershell script files to execute them as administratos and with the bypass execution policy
+; Based in https://www.top-password.com/blog/add-run-with-powershell-admin-context-menu-for-ps1-files/
 
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass]
-@="Ejecutar script como administrador y bypass"
-; Añade un icono
+@="Execute as administrator with bypass policy"
 "Icon"="\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\""
 
-; Llama a Powershell y ejecuta un comando que incluye 
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass\Command]
 @="\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" \"-Command\" \"\"& {Start-Process pwsh.exe -ArgumentList '-ExecutionPolicy Bypass -NoExit -File \\\"%1\\\"' -Verb RunAs}\""
-; Para que funcione con Powershell 5 habría que cambiar la dirección del archivo y quedaría así:
-; [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass\Command]
-; @="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"-Command\" \"\"& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -NoExit -File \\\"%1\\\"' -Verb RunAs}\""
 
-; Posiciona la opción
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass\Position]
 @="Top"
+
+
+; To use it with Powershell 5:
+; [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass\Command]
+; @="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"-Command\" \"\"& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -NoExit -File \\\"%1\\\"' -Verb RunAs}\""

@@ -1,0 +1,364 @@
+{
+	"System administration and utilities": [
+		{
+			"command": "Microsoft.PowerShell",
+			"packageManager": "winget"
+		},
+		{
+			"command": "Microsoft.WindowsTerminal",
+			"packageManager": "winget"
+		},
+		{
+			"command": "7zip",
+			"packageManager": "choco"
+		},
+		{
+			"command": "winrar",
+			"packageManager": "choco"
+		},
+		{
+			"command": "pandoc",
+			"skip": true,
+			"packageManager": "choco"
+		},
+		{
+			"command":"renamer",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"advanced-renamer",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"hwinfo",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "Microsoft.PowerToys",
+			"skip": true,
+			"packagemanager": "winget"
+		},
+		{
+			"command":"procexp",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"windirstat",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"tcpview",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"teamviewer",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"grepwin",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"everything --params ' /desktop-shortcut /folder-context-menu /quick-launch-shortcut /run-on-system-startup /start-menu-shortcuts '",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"autohotkey",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Software development": [
+		{
+			"command": "AdoptOpenJDK --params=' /ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome /skipDIR=true:\\Program Files\\AdoptOpenJDK\\ /quiet '",
+			"packageManager": "choco"
+		},
+		{
+			"command":"nodejs",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"python",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"android-sdk",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"UnityTechnologies.UnityHub",
+			"packagemanager": "winget"
+		},
+		{
+			"command":"eclipse",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"vscode",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"git",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "gitkraken",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command": "sublimetext3",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command": "zeal",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "mobaxterm",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"bitnami-xampp",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Notes and writing tools": [
+		{
+			"command":"whale",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"joplin",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"yed --params='/Associate'",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Media Libraries": [
+		{
+			"command":"calibre",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"mp3tag",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "plex",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"plexmediaserver",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Messaging": [
+		{
+			"command":"whatsapp",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"whatsapptray",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"telegram",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"skype",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"Thunderbird -packageParameters 'l=en-US'",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "wickr",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command": "discord",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"droidcamclient",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Downloads": [
+		{
+			"command":"4k-video-downloader",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"jdownloader",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"qbittorrent",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Internet Browsers": [
+		{
+			"command": "tor-browser",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"Firefox --params '/l:en-US /RemoveDistributionDir'",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"googlechrome",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Videogames": [
+		{
+			"command":"steam",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"epicgameslauncher",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "goggalaxy",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command": "itch",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"origin",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "flashpoint-infinity --params '/AddToDesktop'",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"playnite",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "dbgl",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"ludusavi",
+			"packagemanager": "choco"
+		},
+		{
+			"command": "idle-master-extended",
+			"skip": true,
+			"packagemanager": "choco"
+		},
+		{
+			"command":"geforce-experience",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"moonlight-qt",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Art and graphic design": [
+		{
+			"command":"blender",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"krita",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"KDE.KritaShellExtension",
+			"packagemanager": "winget"
+		},
+		{
+			"command":"nexusfont",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"nomacs",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"exiftool",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"exiftoolgui",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"antidupl",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Cloud": [
+		{
+			"command": "Microsoft.OneDrive",
+			"packageManager": "winget"
+		},
+		{
+			"command":"google-drive-file-stream",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"dropbox",
+			"packagemanager": "choco"
+		}
+	],
+
+	"Video tools": [
+		{
+			"command":"mpc-be",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"vlc",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"mediainfo",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"mkvtoolnix",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"gmkvextractgui",
+			"packagemanager": "choco"
+		},
+		{
+			"command":"subtitleedit",
+			"packagemanager": "choco"
+		}
+	]
+}
