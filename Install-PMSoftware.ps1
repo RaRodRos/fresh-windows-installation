@@ -3,7 +3,7 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 try {
-	$listPMSoftware = (New-Object System.Net.WebClient).DownloadString('')
+	$listPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://git.io/JrieU')
 }
 catch {
 	$listPMSoftware = Get-Content -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath 'list-pm_software.json') -raw
@@ -58,14 +58,23 @@ foreach($category in $categories){
 		}
 		Write-Progress @insideWrite
 		switch ($packageManager) {
-			"choco" { choco install -y -r --ignoredetectedreboot $command }
-			"winget" { winget install -e -h --id $command }
+			"winget" {
+				winget list -e --id $command
+				if ($LASTEXITCODE -eq 0) {
+					winget upgrade -e -h --id $command
+					continue
+				}
+				winget install -e -h --id $command
+			}
+			"choco" {
+				choco install -y -r --ignoredetectedreboot $command
+			}
 			default {
 				Write-Verbose "Package manager not found"
 				$LASTEXITCODE = 1
 			}
 		}
-		if ($LASTEXITCODE -gt 0) { $errorList.Add($pm) }
+		if ($LASTEXITCODE -ne 0) { $errorList.Add($pm) }
 	}
 }
 
