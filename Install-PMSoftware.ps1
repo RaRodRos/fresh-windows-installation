@@ -15,10 +15,9 @@ if (!(Test-Path ~\AppData\Local\Microsoft\WindowsApps\winget.exe)){
     # Installing winget from the Microsoft Store
 	Write-Verbose "Winget not found, installing it now."
 	Start-Process "ms-appinstaller:?source=https://aka.ms/getwinget"
-	$nid = (Get-Process AppInstaller).Id
-	Wait-Process -Id $nid
-	Write-Verbose "Winget Installed"
+	Wait-Process -Id (Get-Process AppInstaller).Id
 }
+Write-Verbose "Winget Installed"
 
 # Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force
@@ -32,21 +31,35 @@ choco feature enable -n=useRememberedArgumentsForUpgrades
 [System.Collections.ArrayList]$errorList = @()
 $progList = ConvertFrom-Json -InputObject $listPMSoftware
 $categories = $progList.Psobject.Properties.Name
-$currentCategory = 0
+$categoryCounter = 0
 
 # Install software
 foreach($category in $categories){
-	$currentCategory += 1
-	$CurrentProgram = 0
-	$programs = $progList.$category
-	Write-Progress -Id 0 -Activity "$category software" -PercentComplete ($currentCategory / $categories.Count * 100)
+	$categoryCounter += 1
+	$programCounter = 0
+	$programs = $progList.$category.Psobject.Properties.Name
+	$outsideWrite = @{
+		Id = 1
+		Activity = "$category software"
+		PercentComplete = ($categoryCounter / $categories.Count * 100)
+	}
+	Write-Progress @outsideWrite
 	foreach($program in $programs) {
-		$CurrentProgram += 1
-		if ($program.Skip) { continue }
-		Write-Progress -Id 1 -ParentId 0 -Activity "Installing $($program.command) package" -PercentComplete ($currentProgram / $programs.Count * 100)
-		switch ($program.packageManager) {
-			"choco" { choco install -y -r --ignoredetectedreboot $program.command }
-			"winget" { winget install -e -h --id $program.command }
+		$install = $progList.$category.$program.install
+		if (!$install) { continue }
+		$packageManager = $progList.$category.$program.packageManager
+		$command = $progList.$category.$program.command
+		$programCounter += 1
+		$insideWrite = @{
+			Id = 1
+			ParentId = 0
+			Activity = "Installing $($program) package"
+			PercentComplete = ($programCounter / $programs.Count * 100)
+		}
+		Write-Progress @insideWrite
+		switch ($packageManager) {
+			"choco" { choco install -y -r --ignoredetectedreboot $command }
+			"winget" { winget install -e -h --id $command }
 			default {
 				Write-Verbose "Package manager not found"
 				$LASTEXITCODE = 1
@@ -63,5 +76,3 @@ if ($errorList.Count -ne 0) {
 $($errorList | out-string)
 "@
 }
-
-# Pause

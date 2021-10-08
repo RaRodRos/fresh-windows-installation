@@ -1,364 +1,459 @@
 {
-	"System administration and utilities": [
-		{
-			"command": "Microsoft.PowerShell",
-			"packageManager": "winget"
+	"System administration and utilities": {
+		"PowerShell":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "Microsoft.PowerShell"
 		},
-		{
-			"command": "Microsoft.WindowsTerminal",
-			"packageManager": "winget"
+		"WindowsTerminal":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "Microsoft.WindowsTerminal"
 		},
-		{
-			"command": "7zip",
-			"packageManager": "choco"
+		"7zip":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "7zip.7zip"
 		},
-		{
-			"command": "winrar",
-			"packageManager": "choco"
+		"WinRAR":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "RARLab.WinRAR"
 		},
-		{
-			"command": "pandoc",
-			"skip": true,
-			"packageManager": "choco"
+		"renamer":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "renamer"
 		},
-		{
-			"command":"renamer",
-			"packagemanager": "choco"
+		"advanced-renamer":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "advanced-renamer"
 		},
-		{
-			"command":"advanced-renamer",
-			"packagemanager": "choco"
+		"HWiNFO":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "REALiX.HWiNFO"
 		},
-		{
-			"command":"hwinfo",
-			"packagemanager": "choco"
+		"PowerToys":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Microsoft.PowerToys"
 		},
-		{
-			"command": "Microsoft.PowerToys",
-			"skip": true,
-			"packagemanager": "winget"
+		"procexp":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "procexp"
 		},
-		{
-			"command":"procexp",
-			"packagemanager": "choco"
+		"WinDirStat":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "WinDirStat.WinDirStat"
 		},
-		{
-			"command":"windirstat",
-			"packagemanager": "choco"
+		"tcpview":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "tcpview"
 		},
-		{
-			"command":"tcpview",
-			"packagemanager": "choco"
+		"PacketSender":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "NagleCode.PacketSender"
 		},
-		{
-			"command":"teamviewer",
-			"packagemanager": "choco"
+		"TeamViewer":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "TeamViewer.TeamViewer"
 		},
-		{
-			"command":"grepwin",
-			"packagemanager": "choco"
+		"dnGrep":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "dnGrep.dnGrep"
 		},
-		{
-			"command":"everything --params ' /desktop-shortcut /folder-context-menu /quick-launch-shortcut /run-on-system-startup /start-menu-shortcuts '",
-			"packagemanager": "choco"
+		"Everything":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "voidtools.Everything"
 		},
-		{
-			"command":"autohotkey",
-			"packagemanager": "choco"
+		"AutoHotkey":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Lexikos.AutoHotkey"
 		}
-	],
+	},
 
-	"Software development": [
-		{
-			"command": "AdoptOpenJDK --params=' /ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome /skipDIR=true:\\Program Files\\AdoptOpenJDK\\ /quiet '",
-			"packageManager": "choco"
+	"Software development": {
+		"OpenJDK.16":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "AdoptOpenJDK.OpenJDK.16"
 		},
-		{
-			"command":"nodejs",
-			"packagemanager": "choco"
+		"NodeJS":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "OpenJS.NodeJS"
 		},
-		{
-			"command":"python",
-			"packagemanager": "choco"
+		"Python.3":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Python.Python.3"
 		},
-		{
-			"command":"android-sdk",
-			"packagemanager": "choco"
+		"AndroidStudio":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Google.AndroidStudio"
 		},
-		{
-			"command":"UnityTechnologies.UnityHub",
-			"packagemanager": "winget"
+		"UnityHub":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "UnityTechnologies.UnityHub"
 		},
-		{
-			"command":"eclipse",
-			"packagemanager": "choco"
+		"VisualStudioCode":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Microsoft.VisualStudioCode"
 		},
-		{
-			"command":"vscode",
-			"packagemanager": "choco"
+		"eclipse":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "eclipse"
 		},
-		{
-			"command":"git",
-			"packagemanager": "choco"
+		"Git":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Git.Git"
 		},
-		{
-			"command": "gitkraken",
-			"skip": true,
-			"packagemanager": "choco"
+		"GitKraken":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Axosoft.GitKraken"
 		},
-		{
-			"command": "sublimetext3",
-			"skip": true,
-			"packagemanager": "choco"
+		"SublimeText.4":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "SublimeHQ.SublimeText.4"
 		},
-		{
-			"command": "zeal",
-			"packagemanager": "choco"
+		"zeal":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "zeal"
 		},
-		{
-			"command": "mobaxterm",
-			"skip": true,
-			"packagemanager": "choco"
+		"mobaxterm":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "mobaxterm"
 		},
-		{
-			"command":"bitnami-xampp",
-			"packagemanager": "choco"
+		"Xampp":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "ApacheFriends.Xampp"
 		}
-	],
+	},
 
-	"Notes and writing tools": [
-		{
-			"command":"whale",
-			"packagemanager": "choco"
+	"Notes and writing tools": {
+		"whale":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "whale"
 		},
-		{
-			"command":"joplin",
-			"packagemanager": "choco"
+		"Joplin":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Joplin.Joplin"
 		},
-		{
-			"command":"yed --params='/Associate'",
-			"packagemanager": "choco"
+		"Pandoc":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "JohnMacFarlane.Pandoc"
+		},
+		"Draw":{
+			"install": true,
+			"packageManager": "winget",
+			"command": " JGraph.Draw"
+		},
+		"yed --params='/Associate'":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "yed --params='/Associate'"
 		}
-	],
+	},
 
-	"Media Libraries": [
-		{
-			"command":"calibre",
-			"packagemanager": "choco"
+	"Media Libraries": {
+		"calibre":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "calibre.calibre"
 		},
-		{
-			"command":"mp3tag",
-			"packagemanager": "choco"
+		"Mp3tag":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Mp3tag.Mp3tag"
 		},
-		{
-			"command": "plex",
-			"skip": true,
-			"packagemanager": "choco"
+		"Plex":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Plex.Plex"
 		},
-		{
-			"command":"plexmediaserver",
-			"packagemanager": "choco"
+		"PlexMediaServer":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Plex.PlexMediaServer"
 		}
-	],
+	},
+	
+	"Messaging": {
+		"Ferdi":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "AmineMouafik.Ferdi"
+		},
+		"WhatsApp":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "WhatsApp.WhatsApp"
+		},
+		"whatsapptray":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "whatsapptray"
+		},
+		"TelegramDesktop":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Telegram.TelegramDesktop"
+		},
+		"Skype":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Microsoft.Skype"
+		},
+		"Thunderbird":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Mozilla.Thunderbird"
+		},
+		"wickr":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "wickr"
+		},
+		"Discord":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Discord.Discord"
+		},
+		"DroidCam":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "dev47apps.DroidCam"
+		}
+	},
 
-	"Messaging": [
-		{
-			"command":"whatsapp",
-			"packagemanager": "choco"
+	"Downloads": {
+		"4KVideoDownloader":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "4KDownload.4KVideoDownloader"
 		},
-		{
-			"command":"whatsapptray",
-			"packagemanager": "choco"
+		"JDownloader":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "AppWork.JDownloader"
 		},
-		{
-			"command":"telegram",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"skype",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"Thunderbird -packageParameters 'l=en-US'",
-			"packagemanager": "choco"
-		},
-		{
-			"command": "wickr",
-			"skip": true,
-			"packagemanager": "choco"
-		},
-		{
-			"command": "discord",
-			"skip": true,
-			"packagemanager": "choco"
-		},
-		{
-			"command":"droidcamclient",
-			"packagemanager": "choco"
+		"qBittorrent":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "qBittorrent.qBittorrent"
 		}
-	],
+	},
 
-	"Downloads": [
-		{
-			"command":"4k-video-downloader",
-			"packagemanager": "choco"
+	"Internet Browsers": {
+		"TorBrowser":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "TorProject.TorBrowser"
 		},
-		{
-			"command":"jdownloader",
-			"packagemanager": "choco"
+		"Firefox --params '/l:en-US /RemoveDistributionDir'":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "Firefox --params '/l:en-US /RemoveDistributionDir'"
 		},
-		{
-			"command":"qbittorrent",
-			"packagemanager": "choco"
+		"Chrome":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Google.Chrome"
 		}
-	],
+	},
 
-	"Internet Browsers": [
-		{
-			"command": "tor-browser",
-			"skip": true,
-			"packagemanager": "choco"
+	"Videogames": {
+		"Steam":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Valve.Steam"
 		},
-		{
-			"command":"Firefox --params '/l:en-US /RemoveDistributionDir'",
-			"packagemanager": "choco"
+		"EpicGamesLauncher":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "EpicGames.EpicGamesLauncher"
 		},
-		{
-			"command":"googlechrome",
-			"packagemanager": "choco"
+		"Galaxy":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "GOG.Galaxy"
+		},
+		"itch":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "itch"
+		},
+		"EADesktop":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "ElectronicArts.EADesktop"
+		},
+		"FlashpointInfinity":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "bluemaxima.FlashpointInfinity"
+		},
+		"Playnite":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Playnite.Playnite"
+		},
+		"DOSBox":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "DOSBox.DOSBox"
+		},
+		"DOSBox-X":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "joncampbell123.DOSBox-X"
+		},
+		"dbgl":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "dbgl"
+		},
+		"BlueStacks":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "BlueStack.BlueStacks"
+		},
+		"ludusavi":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "ludusavi"
+		},
+		"idle-master-extended":{
+			"install": false,
+			"packagemanager": "choco",
+			"command": "idle-master-extended"
+		},
+		"geforce-experience":{
+			"install": false,
+			"packagemanager": "winget",
+			"command": "Nvidia.GeForceExperience"
+		},
+		"Moonlight":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "MoonlightGameStreamingProject.Moonlight"
 		}
-	],
+	},
 
-	"Videogames": [
-		{
-			"command":"steam",
-			"packagemanager": "choco"
+	"Art and graphic design": {
+		"Blender":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "BlenderFoundation.Blender"
 		},
-		{
-			"command":"epicgameslauncher",
-			"packagemanager": "choco"
+		"Krita":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "KDE.Krita"
 		},
-		{
-			"command": "goggalaxy",
-			"skip": true,
-			"packagemanager": "choco"
+		"Krita Shell Extension":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "KDE.KritaShellExtension"
 		},
-		{
-			"command": "itch",
-			"skip": true,
-			"packagemanager": "choco"
+		"NexusFont":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "xiles.NexusFont"
 		},
-		{
-			"command":"origin",
-			"packagemanager": "choco"
+		"nomacs":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "nomacs.nomacs"
 		},
-		{
-			"command": "flashpoint-infinity --params '/AddToDesktop'",
-			"skip": true,
-			"packagemanager": "choco"
+		"exiftool":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "exiftool"
 		},
-		{
-			"command":"playnite",
-			"packagemanager": "choco"
+		"exiftoolgui":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "exiftoolgui"
 		},
-		{
-			"command": "dbgl",
-			"skip": true,
-			"packagemanager": "choco"
-		},
-		{
-			"command":"ludusavi",
-			"packagemanager": "choco"
-		},
-		{
-			"command": "idle-master-extended",
-			"skip": true,
-			"packagemanager": "choco"
-		},
-		{
-			"command":"geforce-experience",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"moonlight-qt",
-			"packagemanager": "choco"
+		"DupeGuru":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "DupeGuru.DupeGuru"
 		}
-	],
+	},
 
-	"Art and graphic design": [
-		{
-			"command":"blender",
-			"packagemanager": "choco"
+	"Cloud": {
+		"OneDrive":{
+			"install": true,
+			"packageManager": "winget",
+			"command": "Microsoft.OneDrive"
 		},
-		{
-			"command":"krita",
-			"packagemanager": "choco"
+		"Drive":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Google.Drive"
 		},
-		{
-			"command":"KDE.KritaShellExtension",
-			"packagemanager": "winget"
-		},
-		{
-			"command":"nexusfont",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"nomacs",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"exiftool",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"exiftoolgui",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"antidupl",
-			"packagemanager": "choco"
+		"Dropbox":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Dropbox.Dropbox"
 		}
-	],
+	},
 
-	"Cloud": [
-		{
-			"command": "Microsoft.OneDrive",
-			"packageManager": "winget"
+	"Video tools": {
+		"MPC-BE":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "9PD88QB3BGKN"
 		},
-		{
-			"command":"google-drive-file-stream",
-			"packagemanager": "choco"
+		"vlc":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "VideoLAN.VLC"
 		},
-		{
-			"command":"dropbox",
-			"packagemanager": "choco"
+		"mediainfo":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "MediaArea.MediaInfo-GUI"
+		},
+		"mkvtoolnix":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "MKVToolNix.MKVToolNix"
+		},
+		"gmkvextractgui":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "gmkvextractgui"
+		},
+		"subtitle Edit":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "9NWH51GWJTKN"
 		}
-	],
-
-	"Video tools": [
-		{
-			"command":"mpc-be",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"vlc",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"mediainfo",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"mkvtoolnix",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"gmkvextractgui",
-			"packagemanager": "choco"
-		},
-		{
-			"command":"subtitleedit",
-			"packagemanager": "choco"
-		}
-	]
+	}
 }
