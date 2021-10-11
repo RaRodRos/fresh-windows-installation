@@ -10,6 +10,10 @@ $paramsEntry = @{
 	Name = "RunAsAdministratorBypass"
 	Value = "Execute as administrator with bypass policy"
 }
+if (Test-Path -Path $paramsEntry.Path) {
+	Write-Verbose "RunAsAdministratorBypass key already exists"
+	Exit
+}
 $entry = New-Item @paramsEntry
 $entry.SetValue('Icon', $psPath)
 
