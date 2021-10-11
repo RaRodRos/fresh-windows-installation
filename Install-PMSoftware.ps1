@@ -2,8 +2,9 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
+$jsonListUrl = 'https://git.io/JrieU'
 try {
-	$listPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://git.io/JrieU')
+	$listPMSoftware = (New-Object System.Net.WebClient).DownloadString($jsonListUrl)
 }
 catch {
 	$listPMSoftware = Get-Content -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath 'list-pm_software.json') -raw
@@ -59,18 +60,18 @@ foreach($category in $categories){
 		Write-Progress @insideWrite
 		switch ($packageManager) {
 			"winget" {
-				winget list -e --id $command
+				winget list -e --id $command | Out-Null
 				if ($LASTEXITCODE -eq 0) {
-					winget upgrade -e -h --id $command
+					winget upgrade -e -h --id $command | Out-Null
 					continue
 				}
-				winget install -e -h --id $command
+				winget install -e -h --id $command | Out-Null
 			}
 			"choco" {
-				choco install -y -r --ignoredetectedreboot $command
+				choco install -y -r --ignoredetectedreboot $command | Out-Null
 			}
 			default {
-				Write-Verbose "Package manager not found"
+				Write-Verbose "$command couldn't be installed because $packageManager is not configured as a package manager"
 				$LASTEXITCODE = 1
 			}
 		}
