@@ -10,7 +10,7 @@ if (!$main -or !($setLowUAC -Or $installPMSoftware)) {
 # Relaunch the script in administrator mode if necessary
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
 	Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -NoExit -Command $main" -Verb RunAs
-	Exit
+	Stop-Process -Id $PID
 }
 
 Invoke-Expression -Command $setLowUAC
