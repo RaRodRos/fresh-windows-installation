@@ -1,10 +1,7 @@
 $main = (New-Object System.Net.WebClient).DownloadString('https://git.io/Jrjhg')
-# $setLowUAC = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoeeB')
-# $installPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://git.io/Joevt')
-# $setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoNhe')
-$setLowUAC = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaRodRos/junk/master/print-jarl.ps1')
-$installPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaRodRos/junk/master/print-jarl.ps1')
-$setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaRodRos/junk/master/print-jarl.ps1')
+$setLowUAC = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoeeB')
+$installPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://git.io/Joevt')
+$setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoNhe')
 
 if (!$main -or !($setLowUAC -Or $installPMSoftware)) {
 	throw "There is no script available"
