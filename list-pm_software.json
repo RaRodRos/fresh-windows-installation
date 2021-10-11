@@ -79,6 +79,11 @@
 			"install": true,
 			"packagemanager": "winget",
 			"command": "Lexikos.AutoHotkey"
+		},
+		"Sharex":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "ShareX.ShareX"
 		}
 	},
 
