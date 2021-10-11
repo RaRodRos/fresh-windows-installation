@@ -408,6 +408,11 @@
 			"install": true,
 			"packagemanager": "winget",
 			"command": "DupeGuru.DupeGuru"
+		},
+		"SageThumbs":{
+			"install": true,
+			"packagemanager": "choco",
+			"command": "sagethumbs"
 		}
 	},
 
