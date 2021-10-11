@@ -12,7 +12,7 @@ $paramsEntry = @{
 }
 if (Test-Path -Path $paramsEntry.Path) {
 	Write-Verbose "RunAsAdministratorBypass key already exists"
-	Exit
+	Return
 }
 $entry = New-Item @paramsEntry
 $entry.SetValue('Icon', $psPath)
