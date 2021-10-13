@@ -84,6 +84,11 @@
 			"install": true,
 			"packagemanager": "winget",
 			"command": "ShareX.ShareX"
+		},
+		"Logitech Options":{
+			"install": true,
+			"packagemanager": "winget",
+			"command": "Logitech.Options"
 		}
 	},
 
