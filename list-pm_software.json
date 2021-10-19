@@ -219,7 +219,7 @@
 		"yed":{
 			"skip": true,
 			"packagemanager": "choco",
-			"parameters": "/Associate",
+			"parameters": "\"'/Associate'\"",
 			"id": "yed"
 		}
 	},
@@ -339,7 +339,7 @@
 		"Firefox":{
 			"skip": false,
 			"packagemanager": "choco",
-			"parameters": "/l:en-US /RemoveDistributionDir",
+			"parameters": "\"'/l:en-US /RemoveDistributionDir'\"",
 			"id": "Firefox"
 		},
 		"Chrome":{
