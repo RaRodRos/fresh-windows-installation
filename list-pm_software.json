@@ -111,11 +111,11 @@
 	},
 
 	"Software development": {
-		"OpenJDK.16":{
+		"Eclipse Adoptium Temurin 17":{
 			"skip": false,
 			"packageManager": "winget",
 			"parameters": "",
-			"id": "AdoptOpenJDK.OpenJDK.16"
+			"id": "EclipseAdoptium.Temurin.17"
 		},
 		"NodeJS":{
 			"skip": false,
