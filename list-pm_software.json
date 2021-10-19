@@ -457,7 +457,7 @@
 			"id": "KDE.Krita"
 		},
 		"Krita Shell Extension":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"parameters": "",
 			"id": "KDE.KritaShellExtension"
