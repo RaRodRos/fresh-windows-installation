@@ -1,8 +1,18 @@
-$main = (New-Object System.Net.WebClient).DownloadString('https://git.io/Jrjhg')
-$setLowUAC = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoeeB')
-$installPMSoftware = (New-Object System.Net.WebClient).DownloadString('https://git.io/Joevt')
-$setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString('https://git.io/JoNhe')
-$setaccessibilitykeys = (New-Object System.Net.WebClient).DownloadString('https://git.io/J6y2C')
+$main = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/main.ps1')
+$installPMSoftware = (New-Object System.Net.WebClient).DownloadString(
+	'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Install-PMSoftware.ps1')
+
+$registryChanges = @{
+	setLowUAC = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-LowUAC.ps1')
+	setAccessibilityKeys = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-AccessibilityKeys.ps1')
+	setDownloadFolder = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-DownloadFolder.ps1')
+	setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-RunAsAdministratorBypass.ps1')
+}
 
 if (!$main -or !($setLowUAC -Or $installPMSoftware)) {
 	throw "There is no script available"
@@ -14,7 +24,8 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 	Stop-Process -Id $PID
 }
 
-Invoke-Expression -Command $setLowUAC
-Invoke-Expression -Command $setaccessibilitykeys
-Invoke-Expression -Command $setRunAsAdministratorBypass
+foreach ($registryChange in $registryChanges.Values) {
+	Invoke-Expression -Command $registryChange
+}
+
 Invoke-Expression -Command $installPMSoftware
