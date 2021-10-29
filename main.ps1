@@ -1,7 +1,7 @@
 $main = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/main.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/main.ps1')
 $installPMSoftware = (New-Object System.Net.WebClient).DownloadString(
-	'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Install-PMSoftware.ps1')
+	'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/software-installation/Install-PMSoftware.ps1')
 
 $winConfig = @{
 	setLowUAC = (New-Object System.Net.WebClient).DownloadString(

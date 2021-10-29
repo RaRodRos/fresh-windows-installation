@@ -14,17 +14,17 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"7zip":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "7zip.7zip",
-			"parameters": "",
-			"comment": ""
-		},
 		"WinRAR":{
 			"skip": false,
 			"packageManager": "winget",
 			"id": "RARLab.WinRAR",
+			"parameters": "",
+			"comment": ""
+		},
+		"7zip":{
+			"skip": false,
+			"packageManager": "winget",
+			"id": "7zip.7zip",
 			"parameters": "",
 			"comment": ""
 		},

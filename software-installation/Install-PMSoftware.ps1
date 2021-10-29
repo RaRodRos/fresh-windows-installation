@@ -10,25 +10,6 @@ catch {
 	$listPMSoftware = Get-Content -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath 'list-pm_software.json') -raw
 }
 
-# Installing Winget
-Write-Verbose "Checking winget..."
-if (!(Test-Path ~\AppData\Local\Microsoft\WindowsApps\winget.exe)){
-    # Installing winget from the Microsoft Store
-	Write-Verbose "Winget not found, installing it now."
-	Start-Process "ms-appinstaller:?source=https://aka.ms/getwinget"
-	Wait-Process -Id (Get-Process AppInstaller).Id
-}
-Write-Verbose "Winget Installed"
-
-# Install Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-choco install chocolatey-core.extension -y
-# Chocolatey remembers the arguments used in the packages installation when updating
-choco feature enable -n=useRememberedArgumentsForUpgrades
-choco feature enable -n=useEnhancedExitCodes
-
 $PMCommands = @{
 	winget = [PSCustomObject]@{
 		list = "list", "--exact", "--id"
@@ -41,6 +22,34 @@ $PMCommands = @{
 		install = "install", "--limitoutput", "--yes", "--ignoredetectedreboot"
 	}
 }
+
+# Installing Winget
+Write-Host "Checking winget..." -ForegroundColor Yellow
+if (!(Test-Path ~\AppData\Local\Microsoft\WindowsApps\winget.exe)){
+    # Installing winget from the Microsoft Store
+	Write-Host "Winget not found, installing it now." -ForegroundColor Yellow
+	Start-Process "ms-appinstaller:?source=https://aka.ms/getwinget"
+	Wait-Process -Id (Get-Process AppInstaller).Id
+}	
+Write-Host "Winget Installed" -ForegroundColor Yellow
+
+# Install Chocolatey
+if ($null -eq (Get-Command -Name choco -ErrorAction SilentlyContinue)) {
+	[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+	Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+}
+$null = choco list --localonly --exact chocolatey-core.extension
+if ($LASTEXITCODE -eq 2) { choco install --limitoutput --yes chocolatey-core.extension}
+# Chocolatey remembers the arguments used in the packages installation when updating
+$chocoFeatures = choco features list
+if ($chocoFeatures -match "[ ] useEnhancedExitCodes") {
+	choco feature enable -n=useEnhancedExitCodes
+}
+if ($chocoFeatures -match "[ ] useRememberedArgumentsForUpgrades") {
+	choco feature enable -n=useRememberedArgumentsForUpgrades
+}
+Remove-Variable -Name 'chocoFeatures'
+Write-Host "Chocolatey installed and configured" -ForegroundColor Yellow
 
 # Get software list from json
 [System.Collections.ArrayList]$errorList = @()
@@ -62,11 +71,12 @@ foreach($category in $categories){
 	Write-Progress @outsideWrite
 
 	foreach($program in $programs) {
-		$skip = !($progList.$category.$program.skip)
+		$skip = ($progList.$category.$program.skip)
 		if ($skip) { continue }
 
 		$packageManager = $progList.$category.$program.packageManager
 		$id = $progList.$category.$program.id
+		if ($packageManager -eq 'choco') { $params = "--params" }
 		$params = $progList.$category.$program.parameters
 		$list = $PMCommands[$packageManager].list
 		$upgrade = $PMCommands[$packageManager].upgrade
@@ -76,19 +86,20 @@ foreach($category in $categories){
 		$insideWrite = @{
 			Id = 1
 			ParentId = 0
-			Activity = "Installing $($program) package"
+			Activity = "Installing ${program} package"
 			PercentComplete = ($programCounter / $programs.Count * 100)
 		}
 		Write-Progress @insideWrite
 
-		$LASTEXITCODE = 501
-		& $packageManager $list $id | Out-Null
+		$null = & $packageManager $list $id
 		if ($LASTEXITCODE -eq 0) {
+			Write-Host "${program} already installed, checking for updates" -ForegroundColor Yellow
 			& $packageManager $upgrade $id
 			continue
 		}
+		Write-Host "Installing ${program}" -ForegroundColor Yellow
 		& $packageManager $install $id $params
-		if ($LASTEXITCODE -ne 0) { $errorList.Add($program) }
+		if ($LASTEXITCODE -ne 0) { [void]$errorList.Add($program) }
 	}
 }
 
