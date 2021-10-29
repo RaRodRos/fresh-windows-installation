@@ -349,11 +349,11 @@
 			"comment": "already using Ferdi"
 		},
 		"DroidCam":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "dev47apps.DroidCam",
 			"parameters": "",
-			"comment": ""
+			"comment": "Incorrect hash at 29-10-2021"
 		}
 	},
 
@@ -361,7 +361,7 @@
 		"4KVideoDownloader":{
 			"skip": false,
 			"packagemanager": "winget",
-			"id": "4KDownload.4KVideoDownloader",
+			"id": "OpenMedia.4KVideoDownloader",
 			"parameters": "",
 			"comment": ""
 		},
@@ -557,11 +557,11 @@
 			"comment": ""
 		},
 		"exiftoolgui":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "choco",
 			"id": "exiftoolgui",
 			"parameters": "",
-			"comment": ""
+			"comment": "At 11-2021 the choco installer doesn't work"
 		},
 		"DupeGuru":{
 			"skip": false,
