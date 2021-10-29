@@ -14,6 +14,8 @@ $winConfig = @{
 		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-RunAsAdministratorBypass.ps1')
 	setNoLogin = (New-Object System.Net.WebClient).DownloadString(
 		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-NoLogin.ps1')
+	setRecentFiles = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-RecentFiles.ps1')
 }
 
 if (!$main -or !($setLowUAC -Or $installPMSoftware)) {
