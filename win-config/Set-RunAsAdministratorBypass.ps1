@@ -10,8 +10,9 @@ $paramsEntry = @{
 	Name = "RunAsAdministratorBypass"
 	Value = "Execute as administrator with bypass policy"
 }
-if (Test-Path -Path $paramsEntry.Path) {
-	Write-Output "RunAsAdministratorBypass key already exists"
+
+if (Get-ItemProperty -Path $paramsEntry.Path -Name $paramsEntry.Name -ErrorAction 'SilentlyContinue') {
+	Write-Output "$($paramsEntry.Name) key already exists"
 	Return
 }
 $entry = New-Item @paramsEntry
