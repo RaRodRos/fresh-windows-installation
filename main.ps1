@@ -1,17 +1,19 @@
 $main = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/main.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/main.ps1')
 $installPMSoftware = (New-Object System.Net.WebClient).DownloadString(
-	'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Install-PMSoftware.ps1')
+	'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Install-PMSoftware.ps1')
 
-$registryChanges = @{
+$winConfig = @{
 	setLowUAC = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-LowUAC.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-LowUAC.ps1')
 	setAccessibilityKeys = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-AccessibilityKeys.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-AccessibilityKeys.ps1')
 	setDownloadFolder = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-DownloadFolder.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-DownloadFolder.ps1')
 	setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString(
-		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/registry/Set-RunAsAdministratorBypass.ps1')
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-RunAsAdministratorBypass.ps1')
+	setNoLogin = (New-Object System.Net.WebClient).DownloadString(
+		'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/win-config/Set-NoLogin.ps1')
 }
 
 if (!$main -or !($setLowUAC -Or $installPMSoftware)) {
@@ -24,7 +26,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 	Stop-Process -Id $PID
 }
 
-foreach ($registryChange in $registryChanges.Values) {
+foreach ($registryChange in $winConfig.Values) {
 	Invoke-Expression -Command $registryChange
 }
 
