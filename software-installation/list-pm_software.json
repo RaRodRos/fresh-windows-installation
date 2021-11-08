@@ -595,7 +595,7 @@
 			"comment": ""
 		},
 		"Dropbox":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "Dropbox.Dropbox",
 			"parameters": "",
