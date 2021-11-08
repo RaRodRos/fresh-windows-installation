@@ -587,8 +587,8 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"Drive":{
-			"skip": false,
+		"Google Drive":{
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "Google.Drive",
 			"parameters": "",
