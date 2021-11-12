@@ -70,6 +70,13 @@
 			"parameters": "",
 			"comment": ""
 		},
+		"Defraggler":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "Piriform.Defraggler",
+			"parameters": "",
+			"comment": ""
+		},
 		"tcpview":{
 			"skip": false,
 			"packagemanager": "choco",
