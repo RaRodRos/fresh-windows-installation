@@ -226,6 +226,13 @@
 			"id": "ApacheFriends.Xampp",
 			"parameters": "",
 			"comment": ""
+		},
+		"VirtualBox":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "Oracle.VirtualBox",
+			"parameters": "",
+			"comment": ""
 		}
 	},
 
