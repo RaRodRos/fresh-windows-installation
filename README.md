@@ -1,6 +1,8 @@
 # Fresh Windows Installation
 
-To execute all the tweaks paste in Powershell:
+> :warning: Tested on Windows 10
+
+To execute all tweaks paste in Powershell:
 
 ```Powershell
 iex (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/main.ps1')
@@ -23,6 +25,6 @@ Windows tweaks and configuration
 
 ## software-installation
 
-1. **Install-PMSoftware.ps1:** Installation of the software I need and it's available in Winget or Chocolatey
-1. **list-pm_software.json:** List of the software available through package managers (necessary for script #4)
+1. **Install-PMSoftware.ps1:** Installation of the software I need that's available in Winget or Chocolatey
+1. **list-pm_software.json:** List of the software available through package managers
 1. **list-manual_software.json:** List of the software **not** available through package managers
