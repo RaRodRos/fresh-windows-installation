@@ -2,6 +2,7 @@ Windows Registry Editor Version 5.00
 
 ; This keys add an option to the contextual menu for powershell script files to execute them as administratos and with the bypass execution policy
 ; Based in https://www.top-password.com/blog/add-run-with-powershell-admin-context-menu-for-ps1-files/
+; It does the same as the Set-RunAsAdministratorBypass script
 
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\RunAsAdministratorBypass]
 @="Execute as administrator with bypass policy"
