@@ -7,7 +7,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"WindowsTerminal":{
+		"Windows Terminal":{
 			"skip": false,
 			"packageManager": "winget",
 			"id": "Microsoft.WindowsTerminal",
@@ -28,14 +28,14 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"renamer":{
+		"Renamer":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "renamer",
 			"parameters": "",
 			"comment": ""
 		},
-		"advanced-renamer":{
+		"Advanced Renamer":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "advanced-renamer",
@@ -56,7 +56,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"procexp":{
+		"Procexp":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "procexp",
@@ -77,7 +77,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"tcpview":{
+		"TCPview":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "tcpview",
@@ -143,42 +143,56 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"NodeJS":{
+		"Node.js":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "OpenJS.NodeJS",
 			"parameters": "",
 			"comment": ""
 		},
-		"Python.3":{
+		"Python 3":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "Python.Python.3",
 			"parameters": "",
 			"comment": ""
 		},
-		"AndroidStudio":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Google.AndroidStudio",
-			"parameters": "",
-			"comment": ""
-		},
-		"UnityHub":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "UnityTechnologies.UnityHub",
-			"parameters": "",
-			"comment": ""
-		},
-		"VisualStudioCode":{
+		"VSCode":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "Microsoft.VisualStudioCode",
 			"parameters": "",
 			"comment": ""
 		},
-		"eclipse":{
+		"SublimeText 4":{
+			"skip": true,
+			"packagemanager": "winget",
+			"id": "SublimeHQ.SublimeText.4",
+			"parameters": "",
+			"comment": ""
+		},
+		"Figma":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "Figma.Figma",
+			"parameters": "",
+			"comment": ""
+		},
+		"Android Studio":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "Google.AndroidStudio",
+			"parameters": "",
+			"comment": ""
+		},
+		"Unity Hub":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "UnityTechnologies.UnityHub",
+			"parameters": "",
+			"comment": ""
+		},
+		"Eclipse":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "eclipse",
@@ -199,21 +213,14 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"SublimeText.4":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "SublimeHQ.SublimeText.4",
-			"parameters": "",
-			"comment": ""
-		},
-		"zeal":{
+		"Zeal":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "zeal",
 			"parameters": "",
 			"comment": ""
 		},
-		"mobaxterm":{
+		"MobaXterm":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "mobaxterm",
@@ -237,7 +244,7 @@
 	},
 
 	"Notes and writing tools": {
-		"whale":{
+		"Whale":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "whale",
@@ -265,7 +272,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"yed":{
+		"Yed":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "yed",
@@ -275,7 +282,7 @@
 	},
 
 	"Media Libraries": {
-		"calibre":{
+		"Calibre":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "calibre.calibre",
@@ -289,7 +296,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"PlexMediaServer":{
+		"Plex Media Server":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "Plex.PlexMediaServer",
@@ -320,7 +327,7 @@
 			"parameters": "",
 			"comment": "already using Ferdi"
 		},
-		"whatsapptray":{
+		"Whatsapptray":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "whatsapptray",
@@ -348,7 +355,7 @@
 			"parameters": "",
 			"comment": "already using Ferdi"
 		},
-		"wickr":{
+		"Wickr":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "wickr",
@@ -427,7 +434,7 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"EpicGamesLauncher":{
+		"Epic Games Launcher":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "EpicGames.EpicGamesLauncher",
@@ -441,21 +448,21 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"itch":{
+		"Itch":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "itch",
 			"parameters": "",
 			"comment": ""
 		},
-		"EADesktop":{
+		"EA Desktop":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "ElectronicArts.EADesktop",
 			"parameters": "",
 			"comment": ""
 		},
-		"FlashpointInfinity":{
+		"Flashpoint Infinity":{
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "bluemaxima.FlashpointInfinity",
@@ -497,21 +504,21 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"ludusavi":{
+		"Ludusavi":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "ludusavi",
 			"parameters": "",
 			"comment": ""
 		},
-		"idle-master-extended":{
+		"Idle-master Extended":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "idle-master-extended",
 			"parameters": "",
 			"comment": ""
 		},
-		"geforce-experience":{
+		"Geforce Experience":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "Nvidia.GeForceExperience",
@@ -556,21 +563,21 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"nomacs":{
+		"Nomacs":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "nomacs.nomacs",
 			"parameters": "",
 			"comment": ""
 		},
-		"exiftool":{
+		"Exiftool":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "exiftool",
 			"parameters": "",
 			"comment": ""
 		},
-		"exiftoolgui":{
+		"Exiftool-gui":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "exiftoolgui",
@@ -625,35 +632,35 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"vlc":{
+		"VLC":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "VideoLAN.VLC",
 			"parameters": "",
 			"comment": ""
 		},
-		"mediainfo":{
+		"MediaInfo":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "MediaArea.MediaInfo-GUI",
 			"parameters": "",
 			"comment": ""
 		},
-		"mkvtoolnix":{
+		"MKVToolnix":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "MKVToolNix.MKVToolNix",
 			"parameters": "",
 			"comment": ""
 		},
-		"gmkvextractgui":{
+		"gMKVextractgui":{
 			"skip": false,
 			"packagemanager": "choco",
 			"id": "gmkvextractgui",
 			"parameters": "",
 			"comment": ""
 		},
-		"subtitle Edit":{
+		"Subtitle Edit":{
 			"skip": false,
 			"packagemanager": "winget",
 			"id": "9NWH51GWJTKN",
