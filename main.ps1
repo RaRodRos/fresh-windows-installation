@@ -8,7 +8,7 @@ $winConfig = @{
 	setAccessibilityKeys = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-AccessibilityKeys.ps1")
 	setDownloadFolder = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-DownloadFolder.ps1")
 	setRunAsAdministratorBypass = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-RunAsAdministratorBypass.ps1")
-	setLoginDisabled = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-LoginDisabled.ps1")
+	setLoginDisabled = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-LogInDisabled.ps1")
 	setRecentFiles = (New-Object System.Net.WebClient).DownloadString("$winConfig/Set-RecentFiles.ps1")
 }
 
