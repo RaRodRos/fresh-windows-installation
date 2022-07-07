@@ -2,7 +2,7 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
-$jsonListUrl = 'https://git.io/JrieU'
+$jsonListUrl = 'https://raw.githubusercontent.com/RaRodRos/fresh-windows-installation/master/software-installation/list-pm_software.json'
 try {
 	$listPMSoftware = (New-Object System.Net.WebClient).DownloadString($jsonListUrl)
 }
