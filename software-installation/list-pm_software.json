@@ -602,14 +602,14 @@
 
 	"Cloud": {
 		"OneDrive":{
-			"skip": false,
+			"skip": true,
 			"packageManager": "winget",
 			"id": "Microsoft.OneDrive",
 			"parameters": "",
 			"comment": ""
 		},
 		"Google Drive":{
-			"skip": true,
+			"skip": false,
 			"packagemanager": "winget",
 			"id": "Google.Drive",
 			"parameters": "",
