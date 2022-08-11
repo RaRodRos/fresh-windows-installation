@@ -249,7 +249,7 @@
 			"packagemanager": "choco",
 			"id": "whale",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "Not necessary, already using Ferdium"
 		},
 		"Joplin":{
 			"skip": false,
@@ -313,10 +313,10 @@
 	},
 	
 	"Messaging": {
-		"Ferdi":{
+		"Ferdium":{
 			"skip": false,
 			"packagemanager": "winget",
-			"id": "AmineMouafik.Ferdi",
+			"id": "Ferdium.Ferdium",
 			"parameters": "",
 			"comment": ""
 		},
@@ -325,49 +325,49 @@
 			"packagemanager": "winget",
 			"id": "WhatsApp.WhatsApp",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"Whatsapptray":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "whatsapptray",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"TelegramDesktop":{
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "Telegram.TelegramDesktop",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"Skype":{
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "Microsoft.Skype",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"Thunderbird":{
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "Mozilla.Thunderbird",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"Wickr":{
 			"skip": true,
 			"packagemanager": "choco",
 			"id": "wickr",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"Discord":{
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "Discord.Discord",
 			"parameters": "",
-			"comment": "already using Ferdi"
+			"comment": "already using Ferdium"
 		},
 		"DroidCam":{
 			"skip": true,
