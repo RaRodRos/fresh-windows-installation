@@ -278,6 +278,13 @@
 			"id": "yed",
 			"parameters": "\"'/Associate'\"",
 			"comment": "already using Draw.io"
+		},
+		"LibreOffice":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "TheDocumentFoundation.LibreOffice",
+			"parameters": "",
+			"comment": ""
 		}
 	},
 
