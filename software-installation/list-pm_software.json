@@ -563,6 +563,13 @@
 			"parameters": "",
 			"comment": "already integrated in the Krita installer"
 		},
+		"PDF-XChange Editor":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "TrackerSoftware.PDF-XChangeEditor",
+			"parameters": "",
+			"comment": ""
+		},
 		"NexusFont":{
 			"skip": false,
 			"packagemanager": "winget",
