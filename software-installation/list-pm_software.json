@@ -311,7 +311,7 @@
 			"comment": ""
 		},
 		"Plex":{
-			"skip": true,
+			"skip": false,
 			"packagemanager": "winget",
 			"id": "Plex.Plex",
 			"parameters": "",
