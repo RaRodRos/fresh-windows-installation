@@ -132,6 +132,13 @@
 			"id": "Logitech.Options",
 			"parameters": "",
 			"comment": ""
+		},
+		"LinkShellExtension":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "HermannSchinagl.LinkShellExtension",
+			"parameters": "",
+			"comment": "Shell extension to create symlinks, junctions, etc"
 		}
 	},
 
