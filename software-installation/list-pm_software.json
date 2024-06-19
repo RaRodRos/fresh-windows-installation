@@ -139,6 +139,13 @@
 			"id": "HermannSchinagl.LinkShellExtension",
 			"parameters": "",
 			"comment": "Shell extension to create symlinks, junctions, etc"
+		},
+		"AV1 Video Extension":{
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "9MVZQVXJBQ9V",
+			"parameters": "",
+			"comment": "Play AV1 videos in your favorite video app on your Windows 10 device. Also allow avif files to be opened and previewed in explorer"
 		}
 	},
 
