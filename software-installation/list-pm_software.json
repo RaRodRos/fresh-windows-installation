@@ -150,10 +150,10 @@
 	},
 
 	"Software development": {
-		"Eclipse Adoptium Temurin 17":{
+		"Eclipse Adoptium Temurin 21 LTS":{
 			"skip": false,
 			"packageManager": "winget",
-			"id": "EclipseAdoptium.Temurin.17",
+			"id": "EclipseAdoptium.Temurin.21.JDK",
 			"parameters": "",
 			"comment": ""
 		},
