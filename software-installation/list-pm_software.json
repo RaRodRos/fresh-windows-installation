@@ -157,8 +157,15 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"Node.js":{
+		"NVM":{
 			"skip": false,
+			"packagemanager": "winget",
+			"id": "CoreyButler.NVMforWindows",
+			"parameters": "",
+			"comment": ""
+		},
+		"Node.js":{
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "OpenJS.NodeJS",
 			"parameters": "",
