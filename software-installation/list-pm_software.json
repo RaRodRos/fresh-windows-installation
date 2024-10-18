@@ -30,15 +30,15 @@
 		},
 		"Renamer":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "renamer",
+			"packagemanager": "winget",
+			"id": "den4b.ReNamer",
 			"parameters": "",
 			"comment": ""
 		},
 		"Advanced Renamer":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "advanced-renamer",
+			"packagemanager": "winget",
+			"id": "HulubuluSoftware.AdvancedRenamer",
 			"parameters": "",
 			"comment": ""
 		},
@@ -58,8 +58,8 @@
 		},
 		"Procexp":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "procexp",
+			"packagemanager": "winget",
+			"id": "Microsoft.Sysinternals.ProcessExplorer",
 			"parameters": "",
 			"comment": ""
 		},
@@ -79,8 +79,8 @@
 		},
 		"TCPview":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "tcpview",
+			"packagemanager": "winget",
+			"id": "Microsoft.Sysinternals.TCPView",
 			"parameters": "",
 			"comment": ""
 		},
@@ -92,7 +92,7 @@
 			"comment": ""
 		},
 		"TeamViewer":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "TeamViewer.TeamViewer",
 			"parameters": "",
@@ -113,7 +113,7 @@
 			"comment": ""
 		},
 		"AutoHotkey":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "Lexikos.AutoHotkey",
 			"parameters": "",
@@ -207,7 +207,7 @@
 			"comment": ""
 		},
 		"Unity Hub":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "UnityTechnologies.UnityHub",
 			"parameters": "",
@@ -229,20 +229,20 @@
 		},
 		"Zeal":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "zeal",
+			"packagemanager": "winget",
+			"id": "OlegShparber.Zeal",
 			"parameters": "",
 			"comment": ""
 		},
 		"MobaXterm":{
 			"skip": true,
-			"packagemanager": "choco",
-			"id": "mobaxterm",
+			"packagemanager": "winget",
+			"id": "Mobatek.MobaXterm",
 			"parameters": "",
 			"comment": ""
 		},
 		"Xampp":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "ApacheFriends.Xampp",
 			"parameters": "",
@@ -325,7 +325,7 @@
 			"comment": ""
 		},
 		"Plex":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "Plex.Plex",
 			"parameters": "",
@@ -335,7 +335,7 @@
 	
 	"Messaging": {
 		"Ferdium":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "Ferdium.Ferdium",
 			"parameters": "",
@@ -411,7 +411,7 @@
 
 	"Internet Browsers": {
 		"TorBrowser":{
-			"skip": false,
+			"skip": true,
 			"packagemanager": "winget",
 			"id": "TorProject.TorBrowser",
 			"parameters": "",
@@ -457,8 +457,8 @@
 		},
 		"Itch":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "itch",
+			"packagemanager": "winget",
+			"id": "ItchIo.Itch",
 			"parameters": "",
 			"comment": ""
 		},
@@ -502,7 +502,7 @@
 			"packagemanager": "choco",
 			"id": "dbgl",
 			"parameters": "",
-			"comment": ""
+			"comment": "It runs on Java. Recommended version LTS 21"
 		},
 		"BlueStacks":{
 			"skip": true,
@@ -512,9 +512,9 @@
 			"comment": ""
 		},
 		"Ludusavi":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "ludusavi",
+			"skip": true,
+			"packagemanager": "winget",
+			"id": "mtkennerly.ludusavi",
 			"parameters": "",
 			"comment": ""
 		},
@@ -586,17 +586,17 @@
 		},
 		"Exiftool":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "exiftool",
+			"packagemanager": "winget",
+			"id": "OliverBetz.ExifTool",
 			"parameters": "",
 			"comment": ""
 		},
 		"Exiftool-gui":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "exiftoolgui",
+			"skip": false,
+			"packagemanager": "winget",
+			"id": "FrankBijnen.ExifToolGUI",
 			"parameters": "",
-			"comment": "At 11-2021 the choco installer doesn't work"
+			"comment": ""
 		},
 		"DupeGuru":{
 			"skip": false,
@@ -607,8 +607,8 @@
 		},
 		"SageThumbs":{
 			"skip": false,
-			"packagemanager": "choco",
-			"id": "sagethumbs",
+			"packagemanager": "winget",
+			"id": "CherubicSoftware.SageThumbs",
 			"parameters": "",
 			"comment": ""
 		}
@@ -663,7 +663,7 @@
 		"MKVToolnix":{
 			"skip": false,
 			"packagemanager": "winget",
-			"id": "MKVToolNix.MKVToolNix",
+			"id": "MoritzBunkus.MKVToolNix",
 			"parameters": "",
 			"comment": ""
 		},
