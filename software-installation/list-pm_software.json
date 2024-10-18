@@ -206,13 +206,6 @@
 			"parameters": "",
 			"comment": ""
 		},
-		"Eclipse":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "eclipse",
-			"parameters": "",
-			"comment": "too heavy"
-		},
 		"Git":{
 			"skip": false,
 			"packagemanager": "winget",
@@ -348,13 +341,6 @@
 			"parameters": "",
 			"comment": "already using Ferdium"
 		},
-		"Whatsapptray":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "whatsapptray",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
 		"TelegramDesktop":{
 			"skip": true,
 			"packagemanager": "winget",
@@ -373,13 +359,6 @@
 			"skip": true,
 			"packagemanager": "winget",
 			"id": "Mozilla.Thunderbird",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Wickr":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "wickr",
 			"parameters": "",
 			"comment": "already using Ferdium"
 		},
