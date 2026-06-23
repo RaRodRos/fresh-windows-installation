@@ -1,685 +1,692 @@
 {
-	"System administration and utilities": {
-		"PowerShell":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "Microsoft.PowerShell",
-			"parameters": "",
-			"comment": ""
-		},
-		"Windows Terminal":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "Microsoft.WindowsTerminal",
-			"parameters": "",
-			"comment": ""
-		},
-		"WinRAR":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "RARLab.WinRAR",
-			"parameters": "",
-			"comment": ""
-		},
-		"7zip":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "7zip.7zip",
-			"parameters": "",
-			"comment": ""
-		},
-		"Renamer":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "renamer",
-			"parameters": "",
-			"comment": ""
-		},
-		"Advanced Renamer":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "advanced-renamer",
-			"parameters": "",
-			"comment": ""
-		},
-		"HWiNFO":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "REALiX.HWiNFO",
-			"parameters": "",
-			"comment": ""
-		},
-		"PowerToys":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Microsoft.PowerToys",
-			"parameters": "",
-			"comment": ""
-		},
-		"Procexp":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "procexp",
-			"parameters": "",
-			"comment": ""
-		},
-		"WinDirStat":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "WinDirStat.WinDirStat",
-			"parameters": "",
-			"comment": ""
-		},
-		"Defraggler":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Piriform.Defraggler",
-			"parameters": "",
-			"comment": ""
-		},
-		"TCPview":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "tcpview",
-			"parameters": "",
-			"comment": ""
-		},
-		"PacketSender":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "NagleCode.PacketSender",
-			"parameters": "",
-			"comment": ""
-		},
-		"TeamViewer":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "TeamViewer.TeamViewer",
-			"parameters": "",
-			"comment": ""
-		},
-		"dnGrep":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "dnGrep.dnGrep",
-			"parameters": "",
-			"comment": ""
-		},
-		"Everything":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "voidtools.Everything",
-			"parameters": "",
-			"comment": ""
-		},
-		"AutoHotkey":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Lexikos.AutoHotkey",
-			"parameters": "",
-			"comment": ""
-		},
-		"Sharex":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "ShareX.ShareX",
-			"parameters": "",
-			"comment": ""
-		},
-		"Logitech Options":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Logitech.Options",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "System administration and utilities": {
+    "PowerShell": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "Microsoft.PowerShell",
+      "parameters": "",
+      "comment": ""
+    },
+    "Windows Terminal": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "Microsoft.WindowsTerminal",
+      "parameters": "",
+      "comment": ""
+    },
+    "WinRAR": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "RARLab.WinRAR",
+      "parameters": "",
+      "comment": ""
+    },
+    "7zip": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "7zip.7zip",
+      "parameters": "",
+      "comment": ""
+    },
+    "Renamer": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "renamer",
+      "parameters": "",
+      "comment": ""
+    },
+    "Advanced Renamer": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "advanced-renamer",
+      "parameters": "",
+      "comment": ""
+    },
+    "HWiNFO": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "REALiX.HWiNFO",
+      "parameters": "",
+      "comment": ""
+    },
+    "PowerToys": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Microsoft.PowerToys",
+      "parameters": "",
+      "comment": ""
+    },
+    "Procexp": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "procexp",
+      "parameters": "",
+      "comment": ""
+    },
+    "WinDirStat": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "WinDirStat.WinDirStat",
+      "parameters": "",
+      "comment": ""
+    },
+    "Defraggler": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Piriform.Defraggler",
+      "parameters": "",
+      "comment": ""
+    },
+    "TCPview": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "tcpview",
+      "parameters": "",
+      "comment": ""
+    },
+    "PacketSender": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "NagleCode.PacketSender",
+      "parameters": "",
+      "comment": ""
+    },
+    "TeamViewer": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "TeamViewer.TeamViewer",
+      "parameters": "",
+      "comment": ""
+    },
+    "dnGrep": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "dnGrep.dnGrep",
+      "parameters": "",
+      "comment": ""
+    },
+    "Everything": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "voidtools.Everything",
+      "parameters": "",
+      "comment": ""
+    },
+    "AutoHotkey": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Lexikos.AutoHotkey",
+      "parameters": "",
+      "comment": ""
+    },
+    "Sharex": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "ShareX.ShareX",
+      "parameters": "",
+      "comment": ""
+    },
+    "Logitech Options": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Logitech.Options",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Software development": {
-		"Eclipse Adoptium Temurin 17":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "EclipseAdoptium.Temurin.17",
-			"parameters": "",
-			"comment": ""
-		},
-		"Node.js":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "OpenJS.NodeJS",
-			"parameters": "",
-			"comment": ""
-		},
-		"Python 3":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Python.Python.3",
-			"parameters": "",
-			"comment": ""
-		},
-		"VSCode":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Microsoft.VisualStudioCode",
-			"parameters": "",
-			"comment": ""
-		},
-		"SublimeText 4":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "SublimeHQ.SublimeText.4",
-			"parameters": "",
-			"comment": ""
-		},
-		"Figma":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Figma.Figma",
-			"parameters": "",
-			"comment": ""
-		},
-		"Android Studio":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Google.AndroidStudio",
-			"parameters": "",
-			"comment": ""
-		},
-		"Unity Hub":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "UnityTechnologies.UnityHub",
-			"parameters": "",
-			"comment": ""
-		},
-		"Eclipse":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "eclipse",
-			"parameters": "",
-			"comment": "too heavy"
-		},
-		"Git":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Git.Git",
-			"parameters": "",
-			"comment": ""
-		},
-		"GitKraken":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Axosoft.GitKraken",
-			"parameters": "",
-			"comment": ""
-		},
-		"Zeal":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "zeal",
-			"parameters": "",
-			"comment": ""
-		},
-		"MobaXterm":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "mobaxterm",
-			"parameters": "",
-			"comment": ""
-		},
-		"Xampp":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "ApacheFriends.Xampp",
-			"parameters": "",
-			"comment": ""
-		},
-		"VirtualBox":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Oracle.VirtualBox",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Software development": {
+    "Eclipse Adoptium Temurin 17": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "EclipseAdoptium.Temurin.17",
+      "parameters": "",
+      "comment": ""
+    },
+    "Node.js": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "OpenJS.NodeJS",
+      "parameters": "",
+      "comment": ""
+    },
+    "Python 3": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Python.Python.3",
+      "parameters": "",
+      "comment": ""
+    },
+    "VSCode": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Microsoft.VisualStudioCode",
+      "parameters": "",
+      "comment": ""
+    },
+    "SublimeText 4": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "SublimeHQ.SublimeText.4",
+      "parameters": "",
+      "comment": ""
+    },
+    "Figma": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Figma.Figma",
+      "parameters": "",
+      "comment": ""
+    },
+    "Android Studio": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Google.AndroidStudio",
+      "parameters": "",
+      "comment": ""
+    },
+    "Unity Hub": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "UnityTechnologies.UnityHub",
+      "parameters": "",
+      "comment": ""
+    },
+    "Eclipse": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "eclipse",
+      "parameters": "",
+      "comment": "too heavy"
+    },
+    "Git": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Git.Git",
+      "parameters": "",
+      "comment": ""
+    },
+    "GitKraken": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Axosoft.GitKraken",
+      "parameters": "",
+      "comment": ""
+    },
+    "Zeal": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "zeal",
+      "parameters": "",
+      "comment": ""
+    },
+    "MobaXterm": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "mobaxterm",
+      "parameters": "",
+      "comment": ""
+    },
+    "Xampp": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "ApacheFriends.Xampp",
+      "parameters": "",
+      "comment": ""
+    },
+    "VirtualBox": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Oracle.VirtualBox",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Notes and writing tools": {
-		"Whale":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "whale",
-			"parameters": "",
-			"comment": "Not necessary, already using Ferdium"
-		},
-		"Joplin":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Joplin.Joplin",
-			"parameters": "",
-			"comment": ""
-		},
-		"Pandoc":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": "JohnMacFarlane.Pandoc",
-			"parameters": "",
-			"comment": ""
-		},
-		"Draw.io / Diagrams":{
-			"skip": false,
-			"packageManager": "winget",
-			"id": " JGraph.Draw",
-			"parameters": "",
-			"comment": ""
-		},
-		"Yed":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "yed",
-			"parameters": "\"'/Associate'\"",
-			"comment": "already using Draw.io"
-		},
-		"LibreOffice":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "TheDocumentFoundation.LibreOffice",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Notes and writing tools": {
+    "Whale": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "whale",
+      "parameters": "",
+      "comment": "Not necessary, already using Ferdium"
+    },
+    "Joplin": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Joplin.Joplin",
+      "parameters": "",
+      "comment": ""
+    },
+    "Pandoc": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": "JohnMacFarlane.Pandoc",
+      "parameters": "",
+      "comment": ""
+    },
+    "Draw.io / Diagrams": {
+      "skip": false,
+      "packageManager": "winget",
+      "id": " JGraph.Draw",
+      "parameters": "",
+      "comment": ""
+    },
+    "Yed": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "yed",
+      "parameters": "\"'/Associate'\"",
+      "comment": "already using Draw.io"
+    },
+    "LibreOffice": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "TheDocumentFoundation.LibreOffice",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Media Libraries": {
-		"Calibre":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "calibre.calibre",
-			"parameters": "",
-			"comment": ""
-		},
-		"Mp3tag":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Mp3tag.Mp3tag",
-			"parameters": "",
-			"comment": ""
-		},
-		"Plex Media Server":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Plex.PlexMediaServer",
-			"parameters": "",
-			"comment": ""
-		},
-		"Plex":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Plex.Plex",
-			"parameters": "",
-			"comment": ""
-		}
-	},
-	
-	"Messaging": {
-		"Ferdium":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Ferdium.Ferdium",
-			"parameters": "",
-			"comment": ""
-		},
-		"WhatsApp":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "WhatsApp.WhatsApp",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Whatsapptray":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "whatsapptray",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"TelegramDesktop":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Telegram.TelegramDesktop",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Skype":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Microsoft.Skype",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Thunderbird":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Mozilla.Thunderbird",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Wickr":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "wickr",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"Discord":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Discord.Discord",
-			"parameters": "",
-			"comment": "already using Ferdium"
-		},
-		"DroidCam":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "dev47apps.DroidCam",
-			"parameters": "",
-			"comment": "Incorrect hash at 29-10-2021"
-		}
-	},
+  "Media Libraries": {
+    "Calibre": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "calibre.calibre",
+      "parameters": "",
+      "comment": ""
+    },
+    "Mp3tag": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Mp3tag.Mp3tag",
+      "parameters": "",
+      "comment": ""
+    },
+    "Plex Media Server": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Plex.PlexMediaServer",
+      "parameters": "",
+      "comment": ""
+    },
+    "Plex": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Plex.Plex",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Downloads": {
-		"4KVideoDownloader":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "OpenMedia.4KVideoDownloader",
-			"parameters": "",
-			"comment": ""
-		},
-		"JDownloader":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "AppWork.JDownloader",
-			"parameters": "",
-			"comment": ""
-		},
-		"qBittorrent":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "qBittorrent.qBittorrent",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Messaging": {
+    "Ferdium": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Ferdium.Ferdium",
+      "parameters": "",
+      "comment": ""
+    },
+    "WhatsApp": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "WhatsApp.WhatsApp",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "Whatsapptray": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "whatsapptray",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "TelegramDesktop": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Telegram.TelegramDesktop",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "Skype": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Microsoft.Skype",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "Thunderbird": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Mozilla.Thunderbird",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "Wickr": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "wickr",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "Discord": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Discord.Discord",
+      "parameters": "",
+      "comment": "already using Ferdium"
+    },
+    "DroidCam": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "dev47apps.DroidCam",
+      "parameters": "",
+      "comment": "Incorrect hash at 29-10-2021"
+    }
+  },
 
-	"Internet Browsers": {
-		"TorBrowser":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "TorProject.TorBrowser",
-			"parameters": "",
-			"comment": ""
-		},
-		"Firefox":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "Firefox",
-			"parameters": "\"'/l:en-US /RemoveDistributionDir'\"",
-			"comment": ""
-		},
-		"Chrome":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Google.Chrome",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Downloads": {
+    "4KVideoDownloader": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "OpenMedia.4KVideoDownloader",
+      "parameters": "",
+      "comment": ""
+    },
+    "JDownloader": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "AppWork.JDownloader",
+      "parameters": "",
+      "comment": ""
+    },
+    "qBittorrent": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "qBittorrent.qBittorrent",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Videogames": {
-		"Steam":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Valve.Steam",
-			"parameters": "",
-			"comment": ""
-		},
-		"Epic Games Launcher":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "EpicGames.EpicGamesLauncher",
-			"parameters": "",
-			"comment": ""
-		},
-		"Galaxy":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "GOG.Galaxy",
-			"parameters": "",
-			"comment": ""
-		},
-		"Itch":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "itch",
-			"parameters": "",
-			"comment": ""
-		},
-		"EA Desktop":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "ElectronicArts.EADesktop",
-			"parameters": "",
-			"comment": ""
-		},
-		"Flashpoint Infinity":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "bluemaxima.FlashpointInfinity",
-			"parameters": "",
-			"comment": "it doesn't have the games, it's only the launcher"
-		},
-		"Playnite":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Playnite.Playnite",
-			"parameters": "",
-			"comment": "not enough stability"
-		},
-		"DOSBox":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "DOSBox.DOSBox",
-			"parameters": "",
-			"comment": "using DOSBox-X"
-		},
-		"DOSBox-X":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "joncampbell123.DOSBox-X",
-			"parameters": "",
-			"comment": ""
-		},
-		"dbgl":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "dbgl",
-			"parameters": "",
-			"comment": ""
-		},
-		"BlueStacks":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "BlueStack.BlueStacks",
-			"parameters": "",
-			"comment": ""
-		},
-		"Ludusavi":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "ludusavi",
-			"parameters": "",
-			"comment": ""
-		},
-		"Idle-master Extended":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "idle-master-extended",
-			"parameters": "",
-			"comment": ""
-		},
-		"Geforce Experience":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Nvidia.GeForceExperience",
-			"parameters": "",
-			"comment": ""
-		},
-		"Moonlight":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "MoonlightGameStreamingProject.Moonlight",
-			"parameters": "",
-			"comment": "it needs geforce-experience"
-		}
-	},
+  "Internet Browsers": {
+    "TorBrowser": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "TorProject.TorBrowser",
+      "parameters": "",
+      "comment": ""
+    },
+    "Firefox": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "Firefox",
+      "parameters": "\"'/l:en-US /RemoveDistributionDir'\"",
+      "comment": ""
+    },
+    "Chrome": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Google.Chrome",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Art and graphic design": {
-		"Blender":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "BlenderFoundation.Blender",
-			"parameters": "",
-			"comment": ""
-		},
-		"Krita":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "KDE.Krita",
-			"parameters": "",
-			"comment": ""
-		},
-		"Krita Shell Extension":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "KDE.KritaShellExtension",
-			"parameters": "",
-			"comment": "already integrated in the Krita installer"
-		},
-		"PDF-XChange Editor":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "TrackerSoftware.PDF-XChangeEditor",
-			"parameters": "",
-			"comment": ""
-		},
-		"NexusFont":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "xiles.NexusFont",
-			"parameters": "",
-			"comment": ""
-		},
-		"Nomacs":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "nomacs.nomacs",
-			"parameters": "",
-			"comment": ""
-		},
-		"Exiftool":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "exiftool",
-			"parameters": "",
-			"comment": ""
-		},
-		"Exiftool-gui":{
-			"skip": true,
-			"packagemanager": "choco",
-			"id": "exiftoolgui",
-			"parameters": "",
-			"comment": "At 11-2021 the choco installer doesn't work"
-		},
-		"DupeGuru":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "DupeGuru.DupeGuru",
-			"parameters": "",
-			"comment": ""
-		},
-		"SageThumbs":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "sagethumbs",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Videogames": {
+    "Steam": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Valve.Steam",
+      "parameters": "",
+      "comment": ""
+    },
+    "Epic Games Launcher": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "EpicGames.EpicGamesLauncher",
+      "parameters": "",
+      "comment": ""
+    },
+    "Galaxy": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "GOG.Galaxy",
+      "parameters": "",
+      "comment": ""
+    },
+    "Itch": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "itch",
+      "parameters": "",
+      "comment": ""
+    },
+    "EA Desktop": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "ElectronicArts.EADesktop",
+      "parameters": "",
+      "comment": ""
+    },
+    "Flashpoint Infinity": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "bluemaxima.FlashpointInfinity",
+      "parameters": "",
+      "comment": "it doesn't have the games, it's only the launcher"
+    },
+    "Playnite": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Playnite.Playnite",
+      "parameters": "",
+      "comment": "not enough stability"
+    },
+    "DOSBox": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "DOSBox.DOSBox",
+      "parameters": "",
+      "comment": "using DOSBox-X"
+    },
+    "DOSBox-X": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "joncampbell123.DOSBox-X",
+      "parameters": "",
+      "comment": ""
+    },
+    "dbgl": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "dbgl",
+      "parameters": "",
+      "comment": ""
+    },
+    "BlueStacks": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "BlueStack.BlueStacks",
+      "parameters": "",
+      "comment": ""
+    },
+    "Ludusavi": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "ludusavi",
+      "parameters": "",
+      "comment": ""
+    },
+    "Idle-master Extended": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "idle-master-extended",
+      "parameters": "",
+      "comment": ""
+    },
+    "Geforce Experience": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Nvidia.GeForceExperience",
+      "parameters": "",
+      "comment": ""
+    },
+    "Moonlight": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "MoonlightGameStreamingProject.Moonlight",
+      "parameters": "",
+      "comment": "it needs geforce-experience"
+    }
+  },
 
-	"Cloud": {
-		"OneDrive":{
-			"skip": true,
-			"packageManager": "winget",
-			"id": "Microsoft.OneDrive",
-			"parameters": "",
-			"comment": ""
-		},
-		"Google Drive":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "Google.Drive",
-			"parameters": "",
-			"comment": ""
-		},
-		"Dropbox":{
-			"skip": true,
-			"packagemanager": "winget",
-			"id": "Dropbox.Dropbox",
-			"parameters": "",
-			"comment": ""
-		}
-	},
+  "Art and graphic design": {
+    "Blender": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "BlenderFoundation.Blender",
+      "parameters": "",
+      "comment": ""
+    },
+    "Krita": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "KDE.Krita",
+      "parameters": "",
+      "comment": ""
+    },
+    "Krita Shell Extension": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "KDE.KritaShellExtension",
+      "parameters": "",
+      "comment": "already integrated in the Krita installer"
+    },
+    "PDF-XChange Editor": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "TrackerSoftware.PDF-XChangeEditor",
+      "parameters": "",
+      "comment": ""
+    },
+    "NexusFont": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "xiles.NexusFont",
+      "parameters": "",
+      "comment": ""
+    },
+    "Nomacs": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "nomacs.nomacs",
+      "parameters": "",
+      "comment": ""
+    },
+    "Exiftool": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "exiftool",
+      "parameters": "",
+      "comment": ""
+    },
+    "Exiftool-gui": {
+      "skip": true,
+      "packagemanager": "choco",
+      "id": "exiftoolgui",
+      "parameters": "",
+      "comment": "At 11-2021 the choco installer doesn't work"
+    },
+    "DupeGuru": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "DupeGuru.DupeGuru",
+      "parameters": "",
+      "comment": ""
+    },
+    "SageThumbs": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "sagethumbs",
+      "parameters": "",
+      "comment": ""
+    },
+    "NAPS2": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "cyanfish.naps2",
+      "parameters": "",
+      "comment": ""
+    }
+  },
 
-	"Video tools": {
-		"MPC-BE":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "9PD88QB3BGKN",
-			"parameters": "",
-			"comment": ""
-		},
-		"VLC":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "VideoLAN.VLC",
-			"parameters": "",
-			"comment": ""
-		},
-		"MediaInfo":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "MediaArea.MediaInfo-GUI",
-			"parameters": "",
-			"comment": ""
-		},
-		"MKVToolnix":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "MKVToolNix.MKVToolNix",
-			"parameters": "",
-			"comment": ""
-		},
-		"gMKVextractgui":{
-			"skip": false,
-			"packagemanager": "choco",
-			"id": "gmkvextractgui",
-			"parameters": "",
-			"comment": ""
-		},
-		"Subtitle Edit":{
-			"skip": false,
-			"packagemanager": "winget",
-			"id": "9NWH51GWJTKN",
-			"parameters": "",
-			"comment": ""
-		}
-	}
+  "Cloud": {
+    "OneDrive": {
+      "skip": true,
+      "packageManager": "winget",
+      "id": "Microsoft.OneDrive",
+      "parameters": "",
+      "comment": ""
+    },
+    "Google Drive": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "Google.Drive",
+      "parameters": "",
+      "comment": ""
+    },
+    "Dropbox": {
+      "skip": true,
+      "packagemanager": "winget",
+      "id": "Dropbox.Dropbox",
+      "parameters": "",
+      "comment": ""
+    }
+  },
+
+  "Video tools": {
+    "MPC-BE": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "9PD88QB3BGKN",
+      "parameters": "",
+      "comment": ""
+    },
+    "VLC": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "VideoLAN.VLC",
+      "parameters": "",
+      "comment": ""
+    },
+    "MediaInfo": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "MediaArea.MediaInfo-GUI",
+      "parameters": "",
+      "comment": ""
+    },
+    "MKVToolnix": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "MKVToolNix.MKVToolNix",
+      "parameters": "",
+      "comment": ""
+    },
+    "gMKVextractgui": {
+      "skip": false,
+      "packagemanager": "choco",
+      "id": "gmkvextractgui",
+      "parameters": "",
+      "comment": ""
+    },
+    "Subtitle Edit": {
+      "skip": false,
+      "packagemanager": "winget",
+      "id": "9NWH51GWJTKN",
+      "parameters": "",
+      "comment": ""
+    }
+  }
 }
